@@ -9,6 +9,7 @@ describe(' test automation', () => {
 
 
     it('register flow', () => {
+
         registerObj.openURL()
         registerObj.enterFirstName(testData.firstName)
         registerObj.enterlastName(testData.lastName)
