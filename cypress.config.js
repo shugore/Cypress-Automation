@@ -3,7 +3,7 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   e2e: {
 
-    baseUrl:'https://www.globalsqa.com',
+    baseUrl:'https://parabank.parasoft.com/',
   
 
     setupNodeEvents(on, config) {
@@ -11,10 +11,6 @@ module.exports = defineConfig({
 
      
     },
-
-    env: {
-     
-    } 
    },
 });
   
