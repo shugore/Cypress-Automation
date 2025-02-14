@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "automation:test": "npx cypress run --spec cypress/e2e/testCases/webInputTest.cy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^14.0.2"
+    "cypress": "^14.0.2",
+    "cypress-mochawesome-reporter": "^3.8.2"
   }
 }
