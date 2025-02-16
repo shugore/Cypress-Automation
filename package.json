@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "automation:test": "npx cypress run --spec cypress/e2e/testCases/webInputTest.cy.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "automation:test": "npx cypress run --spec cypress/e2e/testCases/webInputTest.cy.js"
+    
   },
   "author": "",
   "license": "ISC",
