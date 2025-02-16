@@ -12,7 +12,8 @@ module.exports = defineConfig({
 
   e2e: {
 
-    baseUrl:'https://parabank.parasoft.com/',
+    //baseUrl:'https://parabank.parasoft.com/',
+    baseUrl:'https://practice.expandtesting.com/#tools',
   
 
     setupNodeEvents(on, config) {
