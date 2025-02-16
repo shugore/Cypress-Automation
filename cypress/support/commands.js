@@ -21,3 +21,10 @@ Cypress.Commands.add('launchUrl',() => {
 
 
 })
+
+Cypress.Commands.add('scrollToBottom',() => { 
+
+    cy.get("[href='https://expandtesting.com/']").scrollIntoView();
+
+
+})
