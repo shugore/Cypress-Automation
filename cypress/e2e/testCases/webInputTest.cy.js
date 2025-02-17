@@ -24,11 +24,6 @@ describe('Test Automation - Customer Login', () => {
 
         webInputsPageObj.enterInputPassword(testData.password)
 
-        //cy.url().should('include', '/overview.htm'); 
-
-        //cy.get('.caption').should('contain', 'Experience the difference');
-
-
 
     })
 })

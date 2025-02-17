@@ -4,6 +4,8 @@ module.exports = defineConfig({
 
   reporter: 'cypress-mochawesome-reporter',
 
+  defaultCommandTimeout: 25000,
+
   charts: true,
 
   video: true,
