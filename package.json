@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
 
-    "automation:test": "npx cypress run --spec cypress/e2e/testCases/forgotPasswordTest.cy.js --headed"
+    "automation:test": "npx cypress run --spec cypress/e2e/testCases/loginTest.cy.js --headed"
     
   },
   "author": "",

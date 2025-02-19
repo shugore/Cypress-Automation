@@ -2,7 +2,8 @@ export class loginPage {
 
 
     weblocators = {
-
+        
+        scrollPage: '[for="username"].form-label',
         testLogin: '[href="/login"].my-link',
         username: '#username',
         password: '#password',
@@ -13,6 +14,11 @@ export class loginPage {
     clickOntestLogin() {
 
         cy.get(this.weblocators.testLogin).should('be.visible').click()
+    }
+
+    scrollToUsername() {
+
+        cy.scrollToElement(this.weblocators.scrollPage).should('be.visible')
     }
 
     enterUsername(username) {
