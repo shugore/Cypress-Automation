@@ -16,7 +16,7 @@ describe('Test Automation - Login Test Functionality', () => {
 
         testloginPageObj.clickOntestLogin()
 
-        cy.scrollToBottom()
+        testloginPageObj.scrollToUsername()
 
         testloginPageObj.enterUsername(testData.Username)
 
