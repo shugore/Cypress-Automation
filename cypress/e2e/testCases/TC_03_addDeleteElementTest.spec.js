@@ -2,9 +2,7 @@ import { addDeletePage } from "../../pageobjects/addDeletePage"
 
 const addDeletePageObj = new addDeletePage()
 
-import testData from '../../fixtures/testData.json'
-
-describe('Test Automation - Customer Login', () => {
+describe('TC_03_ Add / Delete Functionality', () => {
 
     before(() => {
         
@@ -12,7 +10,7 @@ describe('Test Automation - Customer Login', () => {
     });
 
 
-    it('Verify customer is able to login or not', () => {
+    it('Should be able to first check delete if present then click on it otherwise click add element and then click delete.', () => {
 
         addDeletePageObj.scrollPage()
 

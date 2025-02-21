@@ -4,7 +4,7 @@ const customerLoginObj = new customerLoginPage()
 
 import testData from '../../fixtures/testData.json'
 
-describe('Test Automation - Customer Login', () => {
+describe('TC_05_Customer Login Functionality', () => {
 
     before(() => {
         
@@ -12,7 +12,7 @@ describe('Test Automation - Customer Login', () => {
     });
 
 
-    it('Verify customer is able to login or not', () => {
+    it('Should able to login', () => {
 
         customerLoginObj.enteruserName(testData.userName)
 

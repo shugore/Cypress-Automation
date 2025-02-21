@@ -4,7 +4,7 @@ const testloginPageObj = new loginPage()
 
 import testData from '../../fixtures/testData.json'
 
-describe('Test Automation - Login Test Functionality', () => {
+describe('TC_01_Login Test Functionality', () => {
 
     before(() => {
         

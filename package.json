@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
 
-    "automation:test": "npx cypress run --spec cypress/e2e/testCases/loginTest.cy.js --headed"
-    
+    "automation:headed": "npx cypress run --spec cypress/e2e/testCases/loginTest.spec.js --headed --browser chrome",
+
+    "automation:headless": "npx cypress run --spec cypress/e2e/testCases/*.spec.js --browser chrome"
+
   },
   "author": "",
   "license": "ISC",

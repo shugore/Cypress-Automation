@@ -4,7 +4,7 @@ const webInputsPageObj = new webInputsPage()
 
 import testData from '../../fixtures/testData.json'
 
-describe('Test Automation - Customer Login', () => {
+describe('Tc_04_Web Inputs functionality', () => {
 
     before(() => {
         
@@ -12,7 +12,7 @@ describe('Test Automation - Customer Login', () => {
     });
 
 
-    it('Verify customer is able to login or not', () => {
+    it('Should be able to check web inputs', () => {
 
         webInputsPageObj.clickOnWebInputs()
 
