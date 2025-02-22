@@ -16,13 +16,13 @@ describe('Tc_04_Web Inputs functionality', () => {
 
         webInputsPageObj.clickOnWebInputs()
 
-        cy.scrollToBottom()
+        webInputsPageObj.scrollToPage()
 
-        webInputsPageObj.enterInputNumber(testData.password)
+        webInputsPageObj.enterInputNumber(testData.number)
 
-        webInputsPageObj.enterInputText(testData.password)
+        webInputsPageObj.enterInputText(testData.text)
 
-        webInputsPageObj.enterInputPassword(testData.password)
+        webInputsPageObj.enterInputPassword(testData.text-password)
 
 
     })

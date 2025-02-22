@@ -11,6 +11,11 @@ export class webInputsPage {
        
     }
 
+    scrollToPage(){
+
+        cy.scrollToElement(this.weblocators.inputNumber)
+    }
+
     clickOnWebInputs() {
 
         cy.get(this.weblocators.webInputs).should('be.visible').click()

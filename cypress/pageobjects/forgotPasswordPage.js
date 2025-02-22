@@ -15,6 +15,11 @@ export class forgotPasswordPage {
         cy.get(this.weblocators.forgotPassowrd).should('be.visible').click()
     }
 
+    scrollToElement(){
+
+        cy.scrollToElement(this.weblocators.email)
+    }
+
     enterEmail(email) {
 
         cy.get(this.weblocators.email).should('be.visible').type(email)

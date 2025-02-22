@@ -24,6 +24,7 @@ module.exports = defineConfig({
 
   e2e: {
     baseUrl: "https://practice.expandtesting.com/#tools",
+    
     specPattern: "cypress/e2e/**/*.spec.{ts,tsx,js}",
 
     setupNodeEvents(on, config) {
