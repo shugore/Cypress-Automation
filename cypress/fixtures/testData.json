@@ -1,10 +1,13 @@
 {
-  "Username":"practice",
+  "Username": "practice",
 
-  "Password":"SuperSecretPassword!",
+  "Password": "SuperSecretPassword!",
 
-  "Email":"testqa@gmail.com",
+  "Email": "testqa@gmail.com",
 
-  "telephone":"1234567890"
-  
+  "number": "1234567890",
+
+  "text": "TestQa",
+
+  "text-password": "password123"
 }

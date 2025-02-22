@@ -4,7 +4,7 @@ const forgotPasswordPageObj = new forgotPasswordPage()
 
 import testData from "../../fixtures/testData.json"
 
-describe('Test Automation - Forgot Password Functionality', () => {
+describe('TC_02_Test Automation - Forgot Password Functionality', () => {
 
     before(() => {
         
@@ -12,7 +12,7 @@ describe('Test Automation - Forgot Password Functionality', () => {
     });
 
 
-    it('Should be able to generate mail',()=>{
+    it('Should be able to check Forgot Password Functionality',()=>{
 
         forgotPasswordPageObj.clickOnforgotPassowrd()
 
