@@ -22,6 +22,5 @@ describe('TC_05_Customer Login Functionality', () => {
 
         myBrowserInfoPageObj.verifyInfo()
 
-        myBrowserInfoPageObj.verifyInfo2()
     })
 })

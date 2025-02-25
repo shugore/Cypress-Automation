@@ -22,7 +22,7 @@ describe('Tc_04_Web Inputs functionality', () => {
 
         webInputsPageObj.enterInputText(testData.text)
 
-        webInputsPageObj.enterInputPassword(testData.text-password)
+        webInputsPageObj.enterInputPassword(testData.textpassword)
 
 
     })
