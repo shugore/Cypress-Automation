@@ -9,5 +9,9 @@
 
   "text": "TestQa",
 
-  "textpassword": "password123"
+  "textpassword": "password123",
+
+  "option":"Option 1",
+
+  "countryName":"India"
 }

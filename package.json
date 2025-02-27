@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
 
-    "automation:headed": "npx cypress run --spec cypress/e2e/testCases/TC_05_myBrowserInfoPageTest.spec.js --headed --browser chrome",
+    "automation:headed": "npx cypress run --spec cypress/e2e/testCases/TC_06_dropDownTest.spec.js --headed --browser chrome",
 
     "automation:headless": "npx cypress run --spec cypress/e2e/testCases/*.spec.js --browser chrome"
 
