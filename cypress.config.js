@@ -24,12 +24,20 @@ module.exports = defineConfig({
 
   e2e: {
     baseUrl: "https://practice.expandtesting.com/#tools",
-    
+
     specPattern: "cypress/e2e/**/*.spec.{ts,tsx,js}",
 
     setupNodeEvents(on, config) {
       // implement node event listeners here
       require("cypress-mochawesome-reporter/plugin")(on);
+
+      // To see the log messages in the terminal
+      on("task", {
+        steplog(message) {
+          console.log(message);
+          return null;
+        },
+      });
 
       // It will only save failed videos
       on("after:spec", (spec, results) => {

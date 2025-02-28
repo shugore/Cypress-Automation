@@ -9,11 +9,13 @@ export class dropDownPage {
   scrollPage() {
 
     cy.scrollToElement(this.weblocators.scrollToPage);
+    
   }
 
   clickOnDropDown() {
 
     cy.get(this.weblocators.dropDownList).should("be.visible").click();
+    
   }
 
   clicksimpleDropDown(option) {
